@@ -108,6 +108,24 @@ Raspberry Pi学習・調査用のリポジトリ
     rm ~/.ssh/id_rsa.pub
     ```
 
+## VSCodeからSSH接続する場合
+
+`~/.ssh/config`に以下の設定を追加する
+
+```
+Host rapsberrypi
+  HostName raspberrypi.local (もしくはIPアドレス)
+  User <ユーザー名>
+  Port <ポート番号>
+  UserKnownHostsFile /dev/null
+  PreferredAuthentications publickey
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile <公開鍵ファイルまでのパス>
+  IdentitiesOnly yes
+  LogLevel FATAL
+```
+
 ## その他便利コマンド
 
 - 要領確認
