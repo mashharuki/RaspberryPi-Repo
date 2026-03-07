@@ -151,3 +151,6 @@ Host rapsberrypi
 - [Raspberry Pi OS](https://www.raspberrypi.com/software/operating-systems/)
 - [VSCodeでssh接続してRaspberry Piを触りたい](https://tec.tecotec.co.jp/entry/2021/12/11/000000)
 - [買ったらまず実施！RaspberryPiのセキュリティ対策](https://qiita.com/c60evaporator/items/ebe9c6e8a445fed859dc)
+- [ollama セットアップのメモランダム](https://qiita.com/hanaya/items/e55de1e80a04469484fd)
+- [Ollama 公式サイト](https://ollama.com/)
+- [Ollama OpenClawセットアップ手順](https://docs.ollama.com/integrations/openclaw)
